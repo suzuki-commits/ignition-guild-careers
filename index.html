@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#101f38">
+<meta name="description" content="イグニッション・ギルドのエンジニア採用。完全案件選択制と案件単価に連動する給与を、3つの年収モデルと技術別の案件例で紹介します。">
+<meta property="og:title" content="IGNITION GUILD｜エンジニア採用">
+<meta property="og:description" content="次の案件は、自分で選ぶ。給与モデル・案件例・募集職種を確認して、カジュアル面談へ。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://suzuki-commits.github.io/ignition-guild-careers/assets/career-hero.webp">
+<title>IGNITION GUILD｜エンジニア採用・案件と給与モデル</title>
+<link rel="icon" href="assets/favicon.png">
+<link rel="preload" as="image" href="assets/career-hero.webp">
+<link rel="stylesheet" href="styles.css">
+<script src="site.js" defer></script>
+</head>
+<body id="top">
+<a class="skip" href="#main">本文へスキップ</a>
+<header class="mast">
+ <div class="mast-row wrap">
+   <a class="brand" href="#top" aria-label="IGNITION GUILD 採用サイトの先頭へ"><img src="assets/logo.png" width="501" height="73" alt="IGNITION GUILD"><span>採用サイト</span></a>
+   <nav class="desktop-nav" aria-label="メインメニュー"><a href="#pay">給与モデル</a><a href="#work">案件例</a><a href="#jobs">募集職種</a><a href="#faq">よくある質問</a></nav>
+   <a class="button small" href="https://meeting.eeasy.jp/ig-aihara/online" data-action="booking" data-position="header">面談を予約<span aria-hidden="true">↗</span></a>
+   <details class="mobile-nav"><summary aria-label="ページ内メニュー"><i aria-hidden="true"></i></summary><nav aria-label="モバイルメニュー"><a href="#pay">給与モデル</a><a href="#work">案件例</a><a href="#jobs">募集職種</a><a href="#faq">よくある質問</a><a href="#company">会社案内</a></nav></details>
+ </div>
+</header>
+<main id="main">
+ <section class="hero" aria-labelledby="hero-title">
+   <div class="hero-image"><img src="assets/career-hero.webp" alt="" width="1672" height="941" fetchpriority="high"></div>
+   <div class="hero-shade"></div>
+   <div class="wrap hero-inner">
+     <div class="hero-copy">
+       <p class="kicker inverse"><i></i>ENGINEER RECRUITMENT</p>
+       <h1 id="hero-title">次の案件は、<br><span>自分で選ぶ。</span></h1>
+       <p class="hero-text">希望する技術、工程、働き方から案件を選ぶ。<br>給与は、あなたが担当する案件の単価に連動します。</p>
+       <div class="hero-actions"><a class="button " href="https://meeting.eeasy.jp/ig-aihara/online" data-action="booking" data-position="hero">カジュアル面談を予約する<span aria-hidden="true">↗</span></a><a class="lightlink" href="#pay">給与モデルを見る <b aria-hidden="true">↓</b></a></div>
+       <p class="hero-note"><i class="clock" aria-hidden="true"></i>30分〜<span></span>履歴書不要</p>
+     </div>
+   </div>
+   <div class="hero-lines" aria-hidden="true"><i></i><i></i><i></i></div>
+ </section>
+ <section class="facts wrap" aria-label="数字で見るイグニッション・ギルド">
+   <dl><div><dt>還元率</dt><dd><strong>80</strong><b>%以上</b></dd><dd class="fact-note">給与・会社負担社保などを含む</dd></div><div><dt>平均年収アップ額</dt><dd><strong>162</strong><b>万円</b></dd><dd class="fact-note">転職による年収の変化</dd></div><div><dt>月平均残業</dt><dd><strong>8.5</strong><b>時間</b></dd><dd class="fact-note">1か月あたりの平均</dd></div><div><dt>定着率</dt><dd><strong>95</strong><b>%</b></dd><dd class="fact-note">公式サイト掲載値</dd></div></dl>
+   <a class="source" href="https://ignition-guild.com/">公式の掲載データを見る <span aria-hidden="true">↗</span></a>
+ </section>
+ <section class="section pay-section" id="pay" aria-labelledby="pay-title">
+   <div class="wrap pay-grid">
+     <div class="intro"><p class="kicker"><i></i>COMPENSATION</p><h2 id="pay-title">案件単価で見る、<br>給与の目安。</h2><p>案件の単価と給与テーブルを社内で公開しています。3つのモデルを切り替えて、月額総支給と想定年収を確認できます。</p><a class="textlink" href="https://ignition-guild.com/promise/">給与制度・算定の詳細 <span aria-hidden="true">↗</span></a></div>
+     <div class="model">
+       <div class="model-head"><h3>案件単価を選ぶ</h3><span>月額単価</span></div>
+       <fieldset class="model-choices"><legend class="sr">月額案件単価を選択</legend><label><input type="radio" name="model" value="0"><span>50<small>万円</small></span></label><label><input type="radio" name="model" value="1" checked><span>70<small>万円</small></span></label><label><input type="radio" name="model" value="2"><span>100<small>万円</small></span></label></fieldset>
+       <div class="model-output" aria-live="polite" aria-atomic="true">
+          <p class="model-role" id="model-role">インフラのモデルケース</p>
+          <dl><div class="annual"><dt>想定年収</dt><dd><strong id="annual">630</strong><b>万円</b></dd></div><div class="monthly"><dt>月額総支給の目安</dt><dd><strong id="monthly">52.5</strong><b>万円</b></dd></div></dl>
+       </div>
+       <details class="formula"><summary>還元率と給与の計算条件</summary><p>還元率は、給与・会社負担の社会保険料・交通費・待機時給与の合計を案件単価で割って算出します。月額総支給は税金や社会保険料を差し引く前の金額です。</p></details>
+       <p class="fine">公式のモデル例です。実際の給与は経験・スキル・案件によって変わります。</p>
+       <noscript><style>.model-choices,.model-output,.model-head{display:none}</style><p>月額単価50万円の場合は月額総支給37.5万円・年収450万円、70万円は52.5万円・630万円、100万円は75万円・900万円が目安です。</p></noscript>
+     </div>
+   </div>
+   <div class="wrap assess"><div><strong>自分のスキルで年収を知りたい方へ</strong><p>スキルシートをもとに、適正年収とキャリアの選択肢を診断します。</p></div><a href="https://ignition-guild.com/assesment/" class="textlink" data-action="assessment" data-position="pay">無料のAI適正年収診断へ <span aria-hidden="true">↗</span></a></div>
+ </section>
+ <section class="section wrap" id="work" aria-labelledby="work-title">
+   <div class="section-head"><div><p class="kicker"><i></i>PROJECTS</p><h2 id="work-title">どんな案件を選べる？</h2></div><p>大手プライムSIerと連携するTriveグループの一員として、社会インフラからWebサービスまで幅広い案件を扱っています。</p></div>
+   <div class="projects"><article class="project data"><div class="art" aria-hidden="true"><div class="artfield"><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-body"><p class="area">DATA ENGINEERING</p><h3>モビリティのデータ分析基盤</h3><p>走行データをリアルタイムに収集し、交通量の予測や最適化に使う分析基盤を設計・構築します。</p><ul class="tags" aria-label="使用技術"><li>Python</li><li>GCP</li><li>Apache Spark</li></ul></div></article><article class="project web"><div class="art" aria-hidden="true"><div class="artfield"><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-body"><p class="area">WEB DEVELOPMENT</p><h3>多言語のWeb学習アプリ</h3><p>日本語学習者向けに、動画配信や継続課金を備えたサービスを開発。UIの提案から運用まで携わります。</p><ul class="tags" aria-label="使用技術"><li>Vue.js</li><li>JavaScript</li><li>AWS</li></ul></div></article><article class="project cloud"><div class="art" aria-hidden="true"><div class="artfield"><i></i><i></i><i></i><i></i><i></i></div></div><div class="project-body"><p class="area">CLOUD ENGINEERING</p><h3>公共サービスのクラウド移行</h3><p>行政サービスの基盤をマイクロサービスに移行。データ基盤の構築や予測分析機能の実装を担います。</p><ul class="tags" aria-label="使用技術"><li>Kubernetes</li><li>Terraform</li><li>Go</li></ul></div></article></div>
+   <p class="fine project-note">公式採用ページのプロジェクト例です。面談時に紹介できる案件は時期によって変わります。</p>
+   <div class="how"><h3>案件を決めるまで</h3><ol><li><b>希望を伝える</b><p>使いたい技術や挑戦したい工程、勤務場所を担当者に共有。</p></li><li><b>候補を見比べる</b><p>担当者からの複数の提案を、技術やリモート条件で比較。</p></li><li><b>自分で選ぶ</b><p>納得した案件に参画。契約更新時には継続するかも選べます。</p></li></ol></div>
+ </section>
+ <section id="jobs" class="section jobs-section" aria-labelledby="jobs-title"><div class="wrap jobs-grid">
+   <div class="intro"><p class="kicker"><i></i>OPEN POSITIONS</p><h2 id="jobs-title">募集職種</h2><p>開発、インフラ、上流工程まで。<br>職種を選ぶと、公式の募集要項で仕事内容や応募条件を確認できます。</p></div>
+   <div class="job-list"><details open><summary>開発<span>5 職種</span></summary><div class="job-links"><a href="https://ignition-guild.com/jobs/backend-engineer/">バックエンド <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/jobs/frontend-engineer/">フロントエンド <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/jobs/full-stack-engineer/">フルスタック <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/jobs/mobile-engineer/">モバイルアプリ <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/jobs/embedded-engineer/">組込み <span aria-hidden="true">↗</span></a></div></details><details><summary>インフラ<span>3 職種</span></summary><div class="job-links"><a href="https://ignition-guild.com/jobs/cloud-engineer/">クラウド <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/jobs/server-engineer/">サーバー <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/jobs/network-engineer/">ネットワーク <span aria-hidden="true">↗</span></a></div></details><details><summary>マネジメント・コンサル<span>2 職種</span></summary><div class="job-links"><a href="https://ignition-guild.com/jobs/project-manager/">PM / PL <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/jobs/it-consultant/">ITコンサルタント <span aria-hidden="true">↗</span></a></div></details><details><summary>未経験からの採用<span>2 職種</span></summary><div class="job-links"><a href="https://ignition-guild.com/jobs/future-engineer/">開発エンジニア <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/jobs/future-infrastructure-engineer/">インフラエンジニア <span aria-hidden="true">↗</span></a></div></details></div>
+ </div></section>
+ <section id="company" class="company section wrap" aria-labelledby="co-title">
+  <div class="portrait"><img width="500" height="593" src="assets/ceo.webp" loading="lazy" alt="株式会社イグニッション・ギルド代表取締役CEO 合原英亮"></div>
+  <div class="company-copy"><p class="kicker"><i></i>ABOUT THE GUILD</p><h2 id="co-title">技術に向き合える<br>環境をつくる。</h2><p>案件を選びにくい。評価の基準が見えにくい。そうしたエンジニアの声を出発点に、イグニッション・ギルドは生まれました。</p><p>横浜を拠点に、SES、ITコンサルティング、先進技術の研究開発・育成に取り組んでいます。</p><p class="byline"><span>代表取締役CEO</span> 合原 英亮</p><div class="co-links"><a class="textlink" href="https://ignition-guild.com/company/">会社概要 <span aria-hidden="true">↗</span></a><a class="textlink" href="https://ignition-guild.com/promise/">代表メッセージ <span aria-hidden="true">↗</span></a></div></div>
+ </section>
+ <section id="faq" class="section faq-section"><div class="wrap faq-grid"><div class="intro"><p class="kicker"><i></i>FAQ</p><h2>よくある質問</h2><a class="textlink" href="#jobs">募集職種を見る <span aria-hidden="true">↑</span></a></div><div class="faq-list"><details><summary>リモート勤務はできますか？</summary><p>リモート対応の案件があり、地方からフルリモートで働く社員もいます。出社の頻度は案件ごとに異なるため、希望の働き方を面談でお伝えください。</p></details><details><summary>待機期間の給与はどうなりますか？</summary><p>次のプロジェクトが決まるまでの待機期間も、給与は全額保証されます。</p></details><details><summary>使ったことのない技術も学べますか？</summary><p>社内のイグニッション・アカデミーで生成AIやクラウド、セキュリティを学べます。技術書の購入補助や、入社後1年を経過し所定の条件を満たした方への資格受験費用の補助もあります。</p></details><details><summary>カジュアル面談の準備と、その後の流れは？</summary><p>最初の面談は30分から。履歴書は不要です。選考に進む場合は、書類選考、Webでの採用面談、内定の順です。入社時期は相談できます。</p></details></div></div></section>
+ <section class="closing"><div class="wrap closeline"><div><p class="kicker inverse"><i></i>CASUAL MEETING</p><h2>次に挑戦したいことを、<br>面談で話しませんか。</h2><p>希望する技術や案件、今の給与で気になることをお聞かせください。</p></div><div class="closing-action"><a class="button " href="https://meeting.eeasy.jp/ig-aihara/online" data-action="booking" data-position="closing">カジュアル面談を予約する<span aria-hidden="true">↗</span></a><p>30分〜　／　履歴書不要</p></div></div></section>
+</main>
+<footer class="wrap footer">
+ <div class="footline"><a class="brand" href="#top"><img width="501" height="73" src="assets/logo.png" alt="IGNITION GUILD"></a><nav aria-label="関連リンク"><a href="https://ignition-guild.com/">公式サイト <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/blog/">ブログ <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/contact/">お問い合わせ <span aria-hidden="true">↗</span></a><a href="https://ignition-guild.com/privacy/">プライバシーポリシー <span aria-hidden="true">↗</span></a></nav></div><div class="footmeta"><p>株式会社イグニッション・ギルド　採用サイト リニューアル提案版</p><p>IGNITION GUILD Inc.</p></div>
+</footer>
+</body>
+</html>
